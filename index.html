@@ -4,6 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <title>Star Wars RPG Game</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <!-- Reset stylesheet -->
   <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
   <!-- Latest compiled and minified CSS -->
@@ -15,45 +16,42 @@
   <link href="https://fonts.googleapis.com/css?family=Itim|Montserrat" rel="stylesheet">
 </head>
 
-<body >
+<body>
+        <div class="container">
+                <h1 style="text-align: right">Star Wars RPG Game!</h1>
+                <div class="row" id="characterSelection">
+                </div>
+                <div class="col-lg-12">
+                    <h2>Your Character</h2>
+                    <div id="character">
+                        
+                    </div>
+                </div>
+                <div class="col-lg-12">
+                    <h2>Enemies Available to Attack</h2>
+                    <div id="defenderArea">
         
-        <div class="container" id="main-game-section">
-        <div class="container col-lg-12" id="heading">
-            Star Wars RPG!
-        </div>
-        <div class="container row">
-            <div class="container col-md-2 characters-section" id="character1">
-                <strong>Obi Wan</strong>
-                <img src="assets/images/Obi-Wan.jpg">
+                    </div>
                 </div>
-                <div class="container col-md-2 characters-section" id="character2">
-                    <strong>Luke Skywalker</strong>
-                <img src="assets/images/LukeSkywalker.jpg">
                 </div>
-                <div class="container col-md-2 characters-section" id="character3">
-                    <strong>Darth Sidious</strong>
-                <img src="assets/images/DarthSidious.png">
+                
+                <div class="col-lg-12">
+                        <h2>Fight Section</h2>
+                        <div id="fightSection">
+                            <button id="attack" class="btn btn-danger">Attack!</button>
+                        </div>
+                    <h2>Defender</h2>
+                    <div id="defender">
+                    </div>
+                    <div id="status">
+                        </div>
+            
+                        <button id="restart" class="btn btn-success">Restart</button>
                 </div>
-                <div class="container col-md-2 characters-section" id="character4">
-                    <strong>Darth Maul</strong>
-                <img src="assets/images/DarthMaul.jpg">
-                </div>
-          </div>
-        <div class="container col-lg-12 character-section">Your Character</div>
-        <div class="container col-lg-12 enimies-section">Enemies Available to Attack </div>
-        <div class="container col-lg-12 fight-section"><p>Fight Section</p>
-        <button type="button" title="Attack">Attack</button>
-        </div>
-        <div class="container col-lg-12 defender-section">Defender </div>
-</div>
+                
+            </div>    
+
         
-
-
-
-
-
-
-
     <!-- JQuery -->
   <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
   <!-- Latest compiled and minified JavaScript for bootstrap -->
