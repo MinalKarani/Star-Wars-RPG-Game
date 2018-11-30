@@ -88,9 +88,9 @@ h1{
       h1{
         text-align: center;
       }
-      img{
-        width:auto;
-        height:auto;
+      .characters-body img{
+        width:100px;
+        height:100px;
         
       }
     }
