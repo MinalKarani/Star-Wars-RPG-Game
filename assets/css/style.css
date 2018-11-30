@@ -7,6 +7,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     font-weight: bolder;
+    font-family: 'Gentium Basic', serif;
 
 }
 
@@ -42,11 +43,10 @@ h1, h2 {
 }
 
 #status {
-	color:red;
 	font-size: 25px;
 }
 
-/*@media screen and (max-width: 980px) {
+@media screen and (max-width: 980px) {
     body {
       background-color: #333;
     }
@@ -81,4 +81,4 @@ h1, h2 {
         width: 600px;
        
       }
-    }*/
+    }
