@@ -14,6 +14,9 @@ body {
 h1, h2 {
 	color: black;
 }
+h1{
+  text-align: right;
+}
 
 .characters,.defenders{
     float: left;
@@ -70,7 +73,8 @@ h1, h2 {
     #main-container{
       
     }
-  }
+  }*/
+
   @media screen and (max-width: 640px) {
     body {
         background-color: #333;
@@ -81,4 +85,12 @@ h1, h2 {
         width: 500px;
        
       }
-    }*/
+      h1{
+        text-align: center;
+      }
+      img{
+        width:auto;
+        height:auto;
+        
+      }
+    }
