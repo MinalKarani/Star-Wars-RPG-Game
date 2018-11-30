@@ -1,17 +1,20 @@
-
+*{
+    box-sizing: border-box;
+}
 body {
 	background-image: url("../images/starwars.jpg");
     color: white;
     background-size: cover;
     background-repeat: no-repeat;
+    font-weight: bolder;
 
 }
 
 h1, h2 {
-	color: white;
+	color: black;
 }
 
-.characters,.defender {
+.characters,.defenders{
     float: left;
     text-align: center;
     border-style: solid;
@@ -20,16 +23,62 @@ h1, h2 {
     background-color: white;
     color:black;
 }
+.defenders{
+    background-color: brown;
+}
+#defender{
+    float: left;
+    text-align: center;
+    border-style: solid;
+    border-color: green;
+    border-width: 1.5px;
+    color:black;
+    background-color:black;
+}
 
 .characters-body img {
-	height: 100px;
+	height: 120px;
 	width: 150px;
-}
-.characters-heading{
-
 }
 
 #status {
-	color: white;
-	font-size: 20px;
+	color:red;
+	font-size: 25px;
 }
+
+/*@media screen and (max-width: 980px) {
+    body {
+      background-color: #333;
+    }
+  
+    .container {
+     
+      width: 700px;
+     
+    }
+  }
+  @media screen and (max-width: 768px) {
+    body {
+      background-color: #333;
+    }
+  
+    .container {
+     
+      width: 600px;
+     
+    }
+    #main-container{
+      
+    }
+  }
+  @media screen and (max-width: 640px) {
+    body {
+        background-color: #333;
+      }
+    
+      .container {
+       
+        width: 600px;
+       
+      }
+    }*/
