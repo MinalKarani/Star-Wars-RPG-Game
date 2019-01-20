@@ -2,6 +2,7 @@
 ###  Star Wars RPG Game 
 
 link to live game:  https://minalkarani.github.io/unit-4-game/
+
 Here's how the app works:
 
    * When the game starts, the player will choose a character by clicking on the fighter's picture. The player will fight as that character for the rest of the game.
