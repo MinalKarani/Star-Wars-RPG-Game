@@ -1,5 +1,5 @@
-# unit-4-game
-###  Star Wars RPG Game 
+# Star Wars RPG Game
+
 
 link to live game:  https://minalkarani.github.io/unit-4-game/
 
